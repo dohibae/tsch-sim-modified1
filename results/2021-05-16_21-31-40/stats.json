@@ -1,0 +1,250 @@
+{
+  "0": {
+    "1": {
+      "app_num_tx": 0,
+      "app_num_endpoint_rx": 0,
+      "app_num_lost": 0,
+      "app_reliability": 100,
+      "app_num_queue_drops": 0,
+      "app_num_tx_limit_drops": 0,
+      "app_num_routing_drops": 0,
+      "app_num_scheduling_drops": 0,
+      "app_num_other_drops": 0,
+      "tsch_eb_tx": 42,
+      "tsch_eb_rx": 0,
+      "tsch_keepalive_tx": 0,
+      "tsch_keepalive_rx": 10,
+      "mac_tx": 49,
+      "mac_tx_unicast": 2,
+      "mac_acked": 2,
+      "mac_rx": 26,
+      "mac_rx_error": 0,
+      "mac_rx_collision": 6,
+      "mac_ack_error": 0,
+      "mac_parent_tx_unicast": 0,
+      "mac_parent_acked": 0,
+      "mac_parent_rx": 0,
+      "slots_rx_idle": 3103,
+      "slots_rx_scanning": 0,
+      "slots_rx_packet": 0,
+      "slots_rx_packet_tx_ack": 26,
+      "slots_tx_packet": 47,
+      "slots_tx_packet_rx_ack": 2,
+      "tsch_join_time_sec": 0,
+      "tsch_num_parent_changes": 0,
+      "app_latency_min_s": null,
+      "app_latency_avg_s": 0,
+      "app_latency_max_s": null,
+      "app_latencies": [],
+      "cycle_tx": 195504,
+      "cycle_rx": 252692,
+      "cycle_scanning": 0,
+      "cycle_idle": 465450,
+      "radio_duty_cycle": 91364600,
+      "radio_duty_cycle_joined": 91364600,
+      "charge_uc": 67697.5,
+      "charge_joined_uc": 67697.5,
+      "avg_current_uA": 112.8,
+      "avg_current_joined_uA": 112.8,
+      "routing_tx": 8,
+      "routing_rx": 6,
+      "routing_join_time_sec": 0,
+      "routing_num_parent_changes": 0
+    },
+    "2": {
+      "app_num_tx": 5,
+      "app_num_endpoint_rx": 5,
+      "app_num_lost": 0,
+      "app_reliability": 100,
+      "app_num_queue_drops": 0,
+      "app_num_tx_limit_drops": 0,
+      "app_num_routing_drops": 0,
+      "app_num_scheduling_drops": 0,
+      "app_num_other_drops": 0,
+      "tsch_eb_tx": 0,
+      "tsch_eb_rx": 41,
+      "tsch_keepalive_tx": 5,
+      "tsch_keepalive_rx": 0,
+      "mac_tx": 16,
+      "mac_tx_unicast": 15,
+      "mac_acked": 13,
+      "mac_rx": 49,
+      "mac_rx_error": 0,
+      "mac_rx_collision": 0,
+      "mac_ack_error": 0,
+      "mac_parent_tx_unicast": 15,
+      "mac_parent_acked": 13,
+      "mac_parent_rx": 48,
+      "slots_rx_idle": 3210,
+      "slots_rx_scanning": 1,
+      "slots_rx_packet": 7,
+      "slots_rx_packet_tx_ack": 1,
+      "slots_tx_packet": 1,
+      "slots_tx_packet_rx_ack": 15,
+      "tsch_join_time_sec": 0.017,
+      "tsch_num_parent_changes": 1,
+      "app_latency_min_s": 0.187,
+      "app_latency_avg_s": 0.225,
+      "app_latency_max_s": 0.273,
+      "app_latencies": [
+        0.222,
+        0.273,
+        0.187,
+        0.204,
+        0.239
+      ],
+      "cycle_tx": 120848,
+      "cycle_rx": 91012,
+      "cycle_scanning": 17040,
+      "cycle_idle": 481500,
+      "radio_duty_cycle": 71040000,
+      "radio_duty_cycle_joined": 69336000,
+      "charge_uc": 70151.1,
+      "charge_joined_uc": 70031.8,
+      "avg_current_uA": 116.9,
+      "avg_current_joined_uA": 116.7,
+      "routing_tx": 4,
+      "routing_rx": 7,
+      "routing_join_time_sec": 4.942,
+      "routing_num_parent_changes": 1
+    },
+    "3": {
+      "app_num_tx": 5,
+      "app_num_endpoint_rx": 5,
+      "app_num_lost": 0,
+      "app_reliability": 100,
+      "app_num_queue_drops": 0,
+      "app_num_tx_limit_drops": 0,
+      "app_num_routing_drops": 0,
+      "app_num_scheduling_drops": 0,
+      "app_num_other_drops": 0,
+      "tsch_eb_tx": 0,
+      "tsch_eb_rx": 41,
+      "tsch_keepalive_tx": 5,
+      "tsch_keepalive_rx": 0,
+      "mac_tx": 16,
+      "mac_tx_unicast": 15,
+      "mac_acked": 13,
+      "mac_rx": 48,
+      "mac_rx_error": 0,
+      "mac_rx_collision": 0,
+      "mac_ack_error": 0,
+      "mac_parent_tx_unicast": 15,
+      "mac_parent_acked": 13,
+      "mac_parent_rx": 47,
+      "slots_rx_idle": 3213,
+      "slots_rx_scanning": 1,
+      "slots_rx_packet": 6,
+      "slots_rx_packet_tx_ack": 1,
+      "slots_tx_packet": 1,
+      "slots_tx_packet_rx_ack": 15,
+      "tsch_join_time_sec": 0.017,
+      "tsch_num_parent_changes": 1,
+      "app_latency_min_s": 0.068,
+      "app_latency_avg_s": 0.1634,
+      "app_latency_max_s": 0.256,
+      "app_latencies": [
+        0.204,
+        0.187,
+        0.102,
+        0.068,
+        0.256
+      ],
+      "cycle_tx": 120848,
+      "cycle_rx": 89780,
+      "cycle_scanning": 17040,
+      "cycle_idle": 481950,
+      "radio_duty_cycle": 70961800,
+      "radio_duty_cycle_joined": 69257800,
+      "charge_uc": 70216.6,
+      "charge_joined_uc": 70097.3,
+      "avg_current_uA": 117,
+      "avg_current_joined_uA": 116.8,
+      "routing_tx": 4,
+      "routing_rx": 7,
+      "routing_join_time_sec": 5.811,
+      "routing_num_parent_changes": 1
+    },
+    "global-stats": {
+      "app-packets-sent": [
+        {
+          "total": 10,
+          "name": "Number of application packets sent"
+        }
+      ],
+      "app-packets-received": [
+        {
+          "total": 10,
+          "name": "Number of application packets received"
+        }
+      ],
+      "app-packets-lost": [
+        {
+          "total": 0,
+          "name": "Number of application packets lost"
+        }
+      ],
+      "current-consumed": [
+        {
+          "name": "Current consumed",
+          "unit": "mA",
+          "mean": 0.3
+        }
+      ],
+      "current-consumed-when-joined": [
+        {
+          "name": "Current consumed",
+          "unit": "mA",
+          "mean": 0.3
+        }
+      ],
+      "e2e-delivery": [
+        {
+          "value": 100,
+          "name": "E2E delivery ratio",
+          "unit": "%"
+        },
+        {
+          "value": 0,
+          "name": "E2E loss ratio",
+          "unit": "%"
+        }
+      ],
+      "e2e-latency": [
+        {
+          "name": "E2E latency",
+          "min": 0.068,
+          "max": 0.273,
+          "unit": "s",
+          "mean": 0.1942
+        }
+      ],
+      "chloe": [
+        {
+          "name": "Dummy"
+        }
+      ],
+      "custom summary": [
+        {
+          "pdr ratio": 100,
+          "loss ratio": 0,
+          "sent": 10,
+          "received": 10,
+          "latency mean": 0.1942,
+          "stats_mac_tx": 81,
+          "stats_mac_tx_unicast": 32,
+          "stats_mac_acked": 28,
+          "stats_mac_rx": 123,
+          "stats_mac_rx_error": 0,
+          "stats_mac_rx_collision": 6,
+          "stats_mac_ack_error": 0,
+          "slot cycle tx": 437200,
+          "slot cycle rx": 433484,
+          "slot cycle scanning": 34080,
+          "slot cycle idle": 1428900,
+          "slot total rx (idle, scan, rx)": 1896464
+        }
+      ]
+    }
+  }
+}

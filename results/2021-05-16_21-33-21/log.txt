@@ -1,0 +1,782 @@
+asn=0    	id=-1  	Main	copying configuration file /home/bae/Documents/tsch-sim/examples/star/config.json to output directory /home/bae/Documents/tsch-sim/results/2021-05-16_21-33-21/config.json
+asn=0    	id=-1  	Main	initializing 600 seconds long simulation...
+asn=0    	id=-1  	TSCH	Orchestra: initializing Orchestra infrastructure
+asn=0    	id=-1  	Main	creating 1 "root" nodes...
+asn=0    	id=-1  	Main	creating 2 "leaf" nodes...
+asn=0    	id=-1  	Main	generating a star network with 3 nodes
+asn=0    	id=1   	Main	Set position x=0.00 y=0.00
+asn=0    	id=2   	Main	Set position x=0.00 y=0.00
+asn=0    	id=3   	Main	Set position x=0.00 y=0.00
+asn=0    	id=-1  	App	new packet source, from=2 for=1 period=10 warmup=100
+asn=0    	id=-1  	App	new packet source, from=3 for=1 period=10 warmup=100
+asn=0    	id=-1  	Main	starting simulation main loop...
+asn=0    	id=1   	TSCH	Orchestra: *** initializing
+asn=0    	id=1   	TSCH	Orchestra: initializing rule EB per time source (handle=0 slotframe_size=397)
+asn=0    	id=1   	TSCH	Orchestra: initializing rule unicast per neighbor storing (handle=1 slotframe_size=17)
+asn=0    	id=1   	TSCH	Orchestra: storing rule, receiver based
+asn=0    	id=1   	TSCH	Orchestra: initializing rule default common (handle=2 slotframe_size=31)
+asn=0    	id=1   	TSCH	Orchestra: initialization done
+asn=0    	id=1   	Node	becomes TSCH coordinator
+asn=0    	id=2   	TSCH	Orchestra: *** initializing
+asn=0    	id=2   	TSCH	Orchestra: initializing rule EB per time source (handle=0 slotframe_size=397)
+asn=0    	id=2   	TSCH	Orchestra: initializing rule unicast per neighbor storing (handle=1 slotframe_size=17)
+asn=0    	id=2   	TSCH	Orchestra: storing rule, receiver based
+asn=0    	id=2   	TSCH	Orchestra: initializing rule default common (handle=2 slotframe_size=31)
+asn=0    	id=2   	TSCH	Orchestra: initialization done
+asn=0    	id=2   	Node	scanning on channel=25...
+asn=0    	id=3   	TSCH	Orchestra: *** initializing
+asn=0    	id=3   	TSCH	Orchestra: initializing rule EB per time source (handle=0 slotframe_size=397)
+asn=0    	id=3   	TSCH	Orchestra: initializing rule unicast per neighbor storing (handle=1 slotframe_size=17)
+asn=0    	id=3   	TSCH	Orchestra: storing rule, receiver based
+asn=0    	id=3   	TSCH	Orchestra: initializing rule default common (handle=2 slotframe_size=31)
+asn=0    	id=3   	TSCH	Orchestra: initialization done
+asn=0    	id=3   	Node	scanning on channel=25...
+asn=1    	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 1
+asn=1    	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=1    	id=2   	Node	add neighbor id=1
+asn=1    	id=2   	TSCH	joined/associated at 0.017 on receiving an EB packet from 1
+asn=1    	id=2   	TSCH	Orchestra: new time source 1
+asn=1    	id=2   	TSCH	Orchestra: storing mode: add uc cell to 1, timeslot=1
+asn=1    	id=2   	RPL	DIS output to -1
+asn=1    	id=3   	Node	add neighbor id=1
+asn=1    	id=3   	TSCH	joined/associated at 0.017 on receiving an EB packet from 1
+asn=1    	id=3   	TSCH	Orchestra: new time source 1
+asn=1    	id=3   	TSCH	Orchestra: storing mode: add uc cell to 1, timeslot=1
+asn=1    	id=3   	RPL	DIS output to -1
+asn=31   	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 1
+asn=31   	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=31   	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 1
+asn=31   	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=184  	id=1   	RPL	DIO output to -1
+asn=186  	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 1
+asn=186  	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=186  	id=2   	RPL	DIO input from 1
+asn=186  	id=2   	RPL	DIO output to 1
+asn=186  	id=3   	RPL	DIO input from 1
+asn=186  	id=3   	RPL	DIO output to 1
+asn=188  	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=188  	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 1
+asn=188  	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=188  	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 1
+asn=188  	id=2   	Node	tx done to=1 numtx=1 acked=false
+asn=188  	id=3   	Node	tx done to=1 numtx=1 acked=false
+asn=222  	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=222  	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 1
+asn=222  	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=222  	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 1
+asn=222  	id=2   	Node	tx done to=1 numtx=2 acked=false
+asn=222  	id=3   	Node	tx done to=1 numtx=2 acked=false
+asn=273  	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=273  	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 1
+asn=273  	id=1   	Node	add neighbor id=2
+asn=273  	id=1   	RPL	DIO input from 2
+asn=273  	id=2   	Node	tx done to=1 numtx=3 acked=true, remove packet
+asn=273  	id=2   	RPL	DIO output to 1
+asn=290  	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=290  	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 1
+asn=290  	id=1   	RPL	DIO input from 2
+asn=290  	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=290  	id=2   	RPL	parent switch: null -> 1
+asn=290  	id=2   	Node	add the default route via 1
+asn=324  	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=324  	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 1
+asn=324  	id=1   	Node	add neighbor id=3
+asn=324  	id=1   	RPL	DIO input from 3
+asn=324  	id=3   	Node	tx done to=1 numtx=3 acked=true, remove packet
+asn=324  	id=3   	RPL	DIO output to 1
+asn=341  	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=341  	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 1
+asn=341  	id=1   	RPL	DIO input from 3
+asn=341  	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=341  	id=3   	RPL	parent switch: null -> 1
+asn=341  	id=3   	Node	add the default route via 1
+asn=461  	id=2   	RPL	DAO output
+asn=477  	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=477  	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 1
+asn=477  	id=1   	RPL	DAO input from 2
+asn=477  	id=1   	Node	add route to 2 via 2
+asn=477  	id=1   	TSCH	Orchestra: child added 2
+asn=477  	id=1   	TSCH	Orchestra: storing mode: add uc cell to 2, timeslot=2
+asn=477  	id=1   	RPL	DAO ACK output 241 0
+asn=477  	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=477  	id=2   	TSCH	Orchestra: parent acked a DAO
+asn=478  	id=3   	RPL	DAO output
+asn=478  	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=478  	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=478  	id=2   	RPL	got DAO ACK seqno 241 (our 241), status 0
+asn=478  	id=1   	Node	tx done to=2 numtx=1 acked=true, remove packet
+asn=494  	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=494  	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 1
+asn=494  	id=1   	RPL	DAO input from 3
+asn=494  	id=1   	Node	add route to 3 via 3
+asn=494  	id=1   	TSCH	Orchestra: child added 3
+asn=494  	id=1   	TSCH	Orchestra: storing mode: add uc cell to 3, timeslot=3
+asn=494  	id=1   	RPL	DAO ACK output 241 0
+asn=494  	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=494  	id=3   	TSCH	Orchestra: parent acked a DAO
+asn=496  	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=496  	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=496  	id=3   	RPL	got DAO ACK seqno 241 (our 241), status 0
+asn=496  	id=1   	Node	tx done to=3 numtx=1 acked=true, remove packet
+asn=740  	id=1   	RPL	DIO output to -1
+asn=744  	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 2
+asn=744  	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=744  	id=2   	RPL	DIO input from 1
+asn=744  	id=3   	RPL	DIO input from 1
+asn=1192 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 2
+asn=1192 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=1589 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 3
+asn=1589 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=1970 	id=1   	RPL	DIO output to -1
+asn=1984 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 3
+asn=1984 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=1984 	id=2   	RPL	DIO input from 1
+asn=1984 	id=3   	RPL	DIO input from 1
+asn=2383 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 4
+asn=2383 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=2780 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 5
+asn=2780 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=3522 	id=-1  	Main	60 seconds, progress 10.00%
+asn=3522 	id=-1  	Main	periodic route processing for all nodes
+asn=3522 	id=1   	TSCH	chloe stats: {"idle_listen":303,"channel_scan":0,"rx_data":0,"rx_data_tx_ack":6,"tx_data":8,"tx_data_rx_ack":2}
+asn=3522 	id=2   	TSCH	chloe stats: {"idle_listen":315,"channel_scan":1,"rx_data":4,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":5}
+asn=3522 	id=3   	TSCH	chloe stats: {"idle_listen":315,"channel_scan":1,"rx_data":3,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":5}
+asn=3574 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 6
+asn=3574 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=4322 	id=1   	RPL	DIO output to -1
+asn=4340 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 4
+asn=4340 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=4340 	id=2   	RPL	DIO input from 1
+asn=4340 	id=3   	RPL	DIO input from 1
+asn=4368 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 7
+asn=4368 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=5162 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 8
+asn=5162 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=5956 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 9
+asn=5956 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=6015 	id=2   	App	generate a packet, seqnum=1 for=1
+asn=6019 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=6019 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=6019 	id=1   	App	rx app packet seqnum=1 from=2
+asn=6019 	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=6449 	id=3   	App	generate a packet, seqnum=1 for=1
+asn=6458 	id=3   	App	generate a packet, seqnum=2 for=1
+asn=6461 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=6461 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 4
+asn=6461 	id=1   	App	rx app packet seqnum=1 from=3
+asn=6461 	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=6478 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=6478 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 4
+asn=6478 	id=1   	App	rx app packet seqnum=2 from=3
+asn=6478 	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=6727 	id=2   	App	generate a packet, seqnum=2 for=1
+asn=6733 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=6733 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=6733 	id=1   	App	rx app packet seqnum=2 from=2
+asn=6733 	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=6750 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 10
+asn=6750 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=7043 	id=-1  	Main	120 seconds, progress 20.00%
+asn=7043 	id=-1  	Main	periodic route processing for all nodes
+asn=7043 	id=1   	TSCH	chloe stats: {"idle_listen":612,"channel_scan":0,"rx_data":0,"rx_data_tx_ack":10,"tx_data":14,"tx_data_rx_ack":2}
+asn=7043 	id=2   	TSCH	chloe stats: {"idle_listen":637,"channel_scan":1,"rx_data":5,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":7}
+asn=7043 	id=3   	TSCH	chloe stats: {"idle_listen":638,"channel_scan":1,"rx_data":4,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":7}
+asn=7418 	id=3   	App	generate a packet, seqnum=3 for=1
+asn=7430 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=7430 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 4
+asn=7430 	id=1   	App	rx app packet seqnum=3 from=3
+asn=7430 	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=7618 	id=2   	App	generate a packet, seqnum=3 for=1
+asn=7634 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=7634 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=7634 	id=1   	App	rx app packet seqnum=3 from=2
+asn=7634 	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=7941 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 11
+asn=7941 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=8022 	id=3   	App	generate a packet, seqnum=4 for=1
+asn=8025 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=8025 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 4
+asn=8025 	id=1   	App	rx app packet seqnum=4 from=3
+asn=8025 	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=8214 	id=2   	App	generate a packet, seqnum=4 for=1
+asn=8229 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=8229 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=8229 	id=1   	App	rx app packet seqnum=4 from=2
+asn=8229 	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=8262 	id=2   	App	generate a packet, seqnum=5 for=1
+asn=8263 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=8263 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=8263 	id=1   	App	rx app packet seqnum=5 from=2
+asn=8263 	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=8544 	id=3   	App	generate a packet, seqnum=5 for=1
+asn=8552 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=8552 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 4
+asn=8552 	id=1   	App	rx app packet seqnum=5 from=3
+asn=8552 	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=8735 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 12
+asn=8735 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=8856 	id=2   	App	generate a packet, seqnum=6 for=1
+asn=8858 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=8858 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=8858 	id=1   	App	rx app packet seqnum=6 from=2
+asn=8858 	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=9235 	id=1   	RPL	DIO output to -1
+asn=9238 	id=3   	App	generate a packet, seqnum=6 for=1
+asn=9238 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 5
+asn=9238 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=9238 	id=2   	RPL	DIO input from 1
+asn=9238 	id=3   	RPL	DIO input from 1
+asn=9249 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=9249 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=9249 	id=1   	App	rx app packet seqnum=6 from=3
+asn=9249 	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=9529 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 13
+asn=9529 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=9562 	id=2   	App	generate a packet, seqnum=7 for=1
+asn=9572 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=9572 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=9572 	id=1   	App	rx app packet seqnum=7 from=2
+asn=9572 	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=9661 	id=3   	App	generate a packet, seqnum=7 for=1
+asn=9674 	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=9674 	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=9674 	id=1   	App	rx app packet seqnum=7 from=3
+asn=9674 	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=10050	id=2   	App	generate a packet, seqnum=8 for=1
+asn=10065	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=10065	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=10065	id=1   	App	rx app packet seqnum=8 from=2
+asn=10065	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=10323	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 14
+asn=10323	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=10564	id=-1  	Main	180 seconds, progress 30.00%
+asn=10564	id=-1  	Main	periodic route processing for all nodes
+asn=10564	id=1   	TSCH	chloe stats: {"idle_listen":912,"channel_scan":0,"rx_data":0,"rx_data_tx_ack":21,"tx_data":19,"tx_data_rx_ack":2}
+asn=10564	id=2   	TSCH	chloe stats: {"idle_listen":957,"channel_scan":1,"rx_data":6,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":13}
+asn=10564	id=3   	TSCH	chloe stats: {"idle_listen":957,"channel_scan":1,"rx_data":5,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":12}
+asn=10780	id=3   	App	generate a packet, seqnum=8 for=1
+asn=10796	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=10796	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=10796	id=1   	App	rx app packet seqnum=8 from=3
+asn=10796	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=10861	id=2   	App	generate a packet, seqnum=9 for=1
+asn=10864	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=10864	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=10864	id=1   	App	rx app packet seqnum=9 from=2
+asn=10864	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=11117	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 15
+asn=11117	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=11186	id=3   	App	generate a packet, seqnum=9 for=1
+asn=11187	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=11187	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=11187	id=1   	App	rx app packet seqnum=9 from=3
+asn=11187	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=11493	id=2   	App	generate a packet, seqnum=10 for=1
+asn=11493	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=11493	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=11493	id=1   	App	rx app packet seqnum=10 from=2
+asn=11493	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=11937	id=2   	App	generate a packet, seqnum=11 for=1
+asn=11952	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=11952	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=11952	id=1   	App	rx app packet seqnum=11 from=2
+asn=11952	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=11999	id=3   	App	generate a packet, seqnum=10 for=1
+asn=12003	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=12003	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=12003	id=1   	App	rx app packet seqnum=10 from=3
+asn=12003	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=12242	id=3   	App	generate a packet, seqnum=11 for=1
+asn=12258	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=12258	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=12258	id=1   	App	rx app packet seqnum=11 from=3
+asn=12258	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=12308	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 16
+asn=12308	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=12645	id=2   	App	generate a packet, seqnum=12 for=1
+asn=12649	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=12649	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=12649	id=1   	App	rx app packet seqnum=12 from=2
+asn=12649	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=13102	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 17
+asn=13102	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=13169	id=3   	App	generate a packet, seqnum=12 for=1
+asn=13176	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=13176	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=13176	id=1   	App	rx app packet seqnum=12 from=3
+asn=13176	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=13324	id=2   	App	generate a packet, seqnum=13 for=1
+asn=13329	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=13329	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=13329	id=1   	App	rx app packet seqnum=13 from=2
+asn=13329	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=13468	id=3   	App	generate a packet, seqnum=13 for=1
+asn=13482	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=13482	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=13482	id=1   	App	rx app packet seqnum=13 from=3
+asn=13482	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=13627	id=2   	App	generate a packet, seqnum=14 for=1
+asn=13635	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=13635	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=13635	id=1   	App	rx app packet seqnum=14 from=2
+asn=13635	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=14085	id=-1  	Main	240 seconds, progress 40.00%
+asn=14085	id=-1  	Main	periodic route processing for all nodes
+asn=14085	id=1   	TSCH	chloe stats: {"idle_listen":1214,"channel_scan":0,"rx_data":0,"rx_data_tx_ack":33,"tx_data":22,"tx_data_rx_ack":2}
+asn=14085	id=2   	TSCH	chloe stats: {"idle_listen":1280,"channel_scan":1,"rx_data":6,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":19}
+asn=14085	id=3   	TSCH	chloe stats: {"idle_listen":1281,"channel_scan":1,"rx_data":5,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":18}
+asn=14199	id=3   	App	generate a packet, seqnum=14 for=1
+asn=14213	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=14213	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=14213	id=1   	App	rx app packet seqnum=14 from=3
+asn=14213	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=14293	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 18
+asn=14293	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=14551	id=3   	App	generate a packet, seqnum=15 for=1
+asn=14553	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=14553	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=14553	id=1   	App	rx app packet seqnum=15 from=3
+asn=14553	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=14565	id=2   	App	generate a packet, seqnum=15 for=1
+asn=14570	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=14570	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=14570	id=1   	App	rx app packet seqnum=15 from=2
+asn=14570	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=14688	id=2   	App	generate a packet, seqnum=16 for=1
+asn=14689	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=14689	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=14689	id=1   	App	rx app packet seqnum=16 from=2
+asn=14689	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=15087	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 19
+asn=15087	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=15353	id=3   	App	generate a packet, seqnum=16 for=1
+asn=15369	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=15369	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=15369	id=1   	App	rx app packet seqnum=16 from=3
+asn=15369	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=15576	id=3   	App	generate a packet, seqnum=17 for=1
+asn=15590	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=15590	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=15590	id=1   	App	rx app packet seqnum=17 from=3
+asn=15590	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=15881	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 20
+asn=15881	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=16358	id=3   	App	generate a packet, seqnum=18 for=1
+asn=16372	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=16372	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=16372	id=1   	App	rx app packet seqnum=18 from=3
+asn=16372	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=16675	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 21
+asn=16675	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=17165	id=3   	App	generate a packet, seqnum=19 for=1
+asn=17171	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=17171	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=17171	id=1   	App	rx app packet seqnum=19 from=3
+asn=17171	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=17172	id=2   	App	generate a packet, seqnum=17 for=1
+asn=17188	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=17188	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=17188	id=1   	App	rx app packet seqnum=17 from=2
+asn=17188	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=17469	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 22
+asn=17469	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=17606	id=-1  	Main	300 seconds, progress 50.00%
+asn=17606	id=-1  	Main	periodic route processing for all nodes
+asn=17606	id=1   	TSCH	chloe stats: {"idle_listen":1519,"channel_scan":0,"rx_data":0,"rx_data_tx_ack":42,"tx_data":27,"tx_data_rx_ack":2}
+asn=17606	id=2   	TSCH	chloe stats: {"idle_listen":1600,"channel_scan":1,"rx_data":6,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":22}
+asn=17606	id=3   	TSCH	chloe stats: {"idle_listen":1602,"channel_scan":1,"rx_data":5,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":24}
+asn=17791	id=2   	App	generate a packet, seqnum=18 for=1
+asn=17800	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=17800	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=17800	id=1   	App	rx app packet seqnum=18 from=2
+asn=17800	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=17974	id=2   	App	generate a packet, seqnum=19 for=1
+asn=17987	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=17987	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=17987	id=1   	App	rx app packet seqnum=19 from=2
+asn=17987	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=18225	id=3   	App	generate a packet, seqnum=20 for=1
+asn=18225	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=18225	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=18225	id=1   	App	rx app packet seqnum=20 from=3
+asn=18225	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=18660	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 23
+asn=18660	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=18698	id=3   	App	generate a packet, seqnum=21 for=1
+asn=18701	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=18701	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=18701	id=1   	App	rx app packet seqnum=21 from=3
+asn=18701	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=19005	id=2   	App	generate a packet, seqnum=20 for=1
+asn=19007	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=19007	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=19007	id=1   	App	rx app packet seqnum=20 from=2
+asn=19007	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=19208	id=3   	App	generate a packet, seqnum=22 for=1
+asn=19211	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=19211	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=19211	id=1   	App	rx app packet seqnum=22 from=3
+asn=19211	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=19454	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 24
+asn=19454	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=19634	id=2   	App	generate a packet, seqnum=21 for=1
+asn=19636	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=19636	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=19636	id=1   	App	rx app packet seqnum=21 from=2
+asn=19636	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=19728	id=2   	App	generate a packet, seqnum=22 for=1
+asn=19738	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=19738	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=19738	id=1   	App	rx app packet seqnum=22 from=2
+asn=19738	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=19849	id=3   	App	generate a packet, seqnum=23 for=1
+asn=19857	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=19857	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=19857	id=1   	App	rx app packet seqnum=23 from=3
+asn=19857	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=20195	id=3   	App	generate a packet, seqnum=24 for=1
+asn=20197	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=20197	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=20197	id=1   	App	rx app packet seqnum=24 from=3
+asn=20197	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=20248	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 25
+asn=20248	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=20791	id=3   	App	generate a packet, seqnum=25 for=1
+asn=20792	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=20792	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 5
+asn=20792	id=1   	App	rx app packet seqnum=25 from=3
+asn=20792	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=20917	id=1   	RPL	DIO output to -1
+asn=20925	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 6
+asn=20925	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=20925	id=2   	RPL	DIO input from 1
+asn=20925	id=3   	RPL	DIO input from 1
+asn=21042	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 26
+asn=21042	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=21127	id=-1  	Main	360 seconds, progress 60.00%
+asn=21127	id=-1  	Main	periodic route processing for all nodes
+asn=21127	id=1   	TSCH	chloe stats: {"idle_listen":1820,"channel_scan":0,"rx_data":0,"rx_data_tx_ack":53,"tx_data":32,"tx_data_rx_ack":2}
+asn=21127	id=2   	TSCH	chloe stats: {"idle_listen":1923,"channel_scan":1,"rx_data":7,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":27}
+asn=21127	id=3   	TSCH	chloe stats: {"idle_listen":1924,"channel_scan":1,"rx_data":6,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":30}
+asn=21466	id=3   	App	generate a packet, seqnum=26 for=1
+asn=21472	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=21472	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=21472	id=1   	App	rx app packet seqnum=26 from=3
+asn=21472	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=21836	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 27
+asn=21836	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=21923	id=3   	App	generate a packet, seqnum=27 for=1
+asn=21931	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=21931	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=21931	id=1   	App	rx app packet seqnum=27 from=3
+asn=21931	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=22469	id=3   	App	generate a packet, seqnum=28 for=1
+asn=22475	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=22475	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=22475	id=1   	App	rx app packet seqnum=28 from=3
+asn=22475	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=22484	id=2   	App	generate a packet, seqnum=23 for=1
+asn=22492	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=22492	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=22492	id=1   	App	rx app packet seqnum=23 from=2
+asn=22492	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=22630	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 28
+asn=22630	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=22710	id=2   	App	generate a packet, seqnum=24 for=1
+asn=22713	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=22713	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=22713	id=1   	App	rx app packet seqnum=24 from=2
+asn=22713	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=23389	id=3   	App	generate a packet, seqnum=29 for=1
+asn=23393	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=23393	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=23393	id=1   	App	rx app packet seqnum=29 from=3
+asn=23393	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=23479	id=2   	App	generate a packet, seqnum=25 for=1
+asn=23495	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=23495	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=23495	id=1   	App	rx app packet seqnum=25 from=2
+asn=23495	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=23780	id=3   	App	generate a packet, seqnum=30 for=1
+asn=23784	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=23784	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=23784	id=1   	App	rx app packet seqnum=30 from=3
+asn=23784	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=23874	id=2   	App	generate a packet, seqnum=26 for=1
+asn=23886	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=23886	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=23886	id=1   	App	rx app packet seqnum=26 from=2
+asn=23886	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=24388	id=3   	App	generate a packet, seqnum=31 for=1
+asn=24396	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=24396	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=24396	id=1   	App	rx app packet seqnum=31 from=3
+asn=24396	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=24639	id=2   	App	generate a packet, seqnum=27 for=1
+asn=24648	id=-1  	Main	420 seconds, progress 70.00%
+asn=24648	id=-1  	Main	periodic route processing for all nodes
+asn=24648	id=1   	TSCH	chloe stats: {"idle_listen":2123,"channel_scan":0,"rx_data":0,"rx_data_tx_ack":63,"tx_data":34,"tx_data_rx_ack":2}
+asn=24648	id=2   	TSCH	chloe stats: {"idle_listen":2244,"channel_scan":1,"rx_data":7,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":31}
+asn=24648	id=3   	TSCH	chloe stats: {"idle_listen":2246,"channel_scan":1,"rx_data":6,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":36}
+asn=24651	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=24651	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=24651	id=1   	App	rx app packet seqnum=27 from=2
+asn=24651	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=24944	id=2   	App	generate a packet, seqnum=28 for=1
+asn=24957	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=24957	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=24957	id=1   	App	rx app packet seqnum=28 from=2
+asn=24957	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=25133	id=3   	App	generate a packet, seqnum=32 for=1
+asn=25144	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=25144	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=25144	id=1   	App	rx app packet seqnum=32 from=3
+asn=25144	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=25673	id=3   	App	generate a packet, seqnum=33 for=1
+asn=25688	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=25688	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=25688	id=1   	App	rx app packet seqnum=33 from=3
+asn=25688	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=25861	id=2   	App	generate a packet, seqnum=29 for=1
+asn=25875	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=25875	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=25875	id=1   	App	rx app packet seqnum=29 from=2
+asn=25875	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=26055	id=3   	App	generate a packet, seqnum=34 for=1
+asn=26062	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=26062	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=26062	id=1   	App	rx app packet seqnum=34 from=3
+asn=26062	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=26141	id=2   	App	generate a packet, seqnum=30 for=1
+asn=26147	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=26147	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=26147	id=1   	App	rx app packet seqnum=30 from=2
+asn=26147	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=26941	id=2   	App	generate a packet, seqnum=31 for=1
+asn=26946	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=26946	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=26946	id=1   	App	rx app packet seqnum=31 from=2
+asn=26946	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=27081	id=3   	App	generate a packet, seqnum=35 for=1
+asn=27082	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=27082	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=27082	id=1   	App	rx app packet seqnum=35 from=3
+asn=27082	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=27574	id=3   	App	generate a packet, seqnum=36 for=1
+asn=27575	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=27575	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=27575	id=1   	App	rx app packet seqnum=36 from=3
+asn=27575	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=27758	id=2   	App	generate a packet, seqnum=32 for=1
+asn=27758	id=3   	App	generate a packet, seqnum=37 for=1
+asn=27762	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=27762	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=27762	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=27762	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=27762	id=2   	Node	tx done to=1 numtx=1 acked=false
+asn=27762	id=3   	Node	tx done to=1 numtx=1 acked=false
+asn=27779	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=27779	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=27779	id=1   	App	rx app packet seqnum=37 from=3
+asn=27779	id=3   	Node	tx done to=1 numtx=2 acked=true, remove packet
+asn=27791	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 29
+asn=27791	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=27796	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=27796	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=27796	id=1   	App	rx app packet seqnum=32 from=2
+asn=27796	id=2   	Node	tx done to=1 numtx=2 acked=true, remove packet
+asn=28009	id=2   	App	generate a packet, seqnum=33 for=1
+asn=28017	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=28017	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=28017	id=1   	App	rx app packet seqnum=33 from=2
+asn=28017	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=28170	id=-1  	Main	480 seconds, progress 80.00%
+asn=28170	id=-1  	Main	periodic route processing for all nodes
+asn=28170	id=1   	TSCH	chloe stats: {"idle_listen":2424,"channel_scan":0,"rx_data":0,"rx_data_tx_ack":76,"tx_data":35,"tx_data_rx_ack":2}
+asn=28170	id=2   	TSCH	chloe stats: {"idle_listen":2565,"channel_scan":1,"rx_data":7,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":39}
+asn=28170	id=3   	TSCH	chloe stats: {"idle_listen":2567,"channel_scan":1,"rx_data":6,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":43}
+asn=28585	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 30
+asn=28585	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=28590	id=3   	App	generate a packet, seqnum=38 for=1
+asn=28595	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=28595	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=28595	id=1   	App	rx app packet seqnum=38 from=3
+asn=28595	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=28876	id=2   	App	generate a packet, seqnum=34 for=1
+asn=28884	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=28884	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=28884	id=1   	App	rx app packet seqnum=34 from=2
+asn=28884	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=29097	id=3   	App	generate a packet, seqnum=39 for=1
+asn=29105	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=29105	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=29105	id=1   	App	rx app packet seqnum=39 from=3
+asn=29105	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=29379	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 31
+asn=29379	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=29554	id=2   	App	generate a packet, seqnum=35 for=1
+asn=29564	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=29564	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=29564	id=1   	App	rx app packet seqnum=35 from=2
+asn=29564	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=29655	id=3   	App	generate a packet, seqnum=40 for=1
+asn=29666	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=29666	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=29666	id=1   	App	rx app packet seqnum=40 from=3
+asn=29666	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=29717	id=2   	App	generate a packet, seqnum=36 for=1
+asn=29717	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=29717	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=29717	id=1   	App	rx app packet seqnum=36 from=2
+asn=29717	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=30339	id=2   	App	generate a packet, seqnum=37 for=1
+asn=30346	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=30346	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=30346	id=1   	App	rx app packet seqnum=37 from=2
+asn=30346	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=30366	id=3   	App	generate a packet, seqnum=41 for=1
+asn=30380	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=30380	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=30380	id=1   	App	rx app packet seqnum=41 from=3
+asn=30380	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=31103	id=3   	App	generate a packet, seqnum=42 for=1
+asn=31111	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=31111	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=31111	id=1   	App	rx app packet seqnum=42 from=3
+asn=31111	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=31122	id=2   	App	generate a packet, seqnum=38 for=1
+asn=31128	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=31128	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=31128	id=1   	App	rx app packet seqnum=38 from=2
+asn=31128	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=31452	id=2   	App	generate a packet, seqnum=39 for=1
+asn=31461	id=3   	App	generate a packet, seqnum=43 for=1
+asn=31468	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=31468	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=31468	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=31468	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=31468	id=2   	Node	tx done to=1 numtx=1 acked=false
+asn=31468	id=3   	Node	tx done to=1 numtx=1 acked=false
+asn=31519	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=31519	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=31519	id=1   	App	rx app packet seqnum=39 from=2
+asn=31519	id=2   	Node	tx done to=1 numtx=2 acked=true, remove packet
+asn=31536	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=31536	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=31536	id=1   	App	rx app packet seqnum=43 from=3
+asn=31536	id=3   	Node	tx done to=1 numtx=2 acked=true, remove packet
+asn=31691	id=-1  	Main	540 seconds, progress 90.00%
+asn=31691	id=-1  	Main	periodic route processing for all nodes
+asn=31691	id=1   	TSCH	chloe stats: {"idle_listen":2727,"channel_scan":0,"rx_data":0,"rx_data_tx_ack":88,"tx_data":37,"tx_data_rx_ack":2}
+asn=31691	id=2   	TSCH	chloe stats: {"idle_listen":2889,"channel_scan":1,"rx_data":7,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":46}
+asn=31691	id=3   	TSCH	chloe stats: {"idle_listen":2888,"channel_scan":1,"rx_data":6,"rx_data_tx_ack":1,"tx_data":1,"tx_data_rx_ack":50}
+asn=32040	id=3   	App	generate a packet, seqnum=44 for=1
+asn=32046	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=32046	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=32046	id=1   	App	rx app packet seqnum=44 from=3
+asn=32046	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=32436	id=2   	App	generate a packet, seqnum=40 for=1
+asn=32437	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=32437	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=32437	id=1   	App	rx app packet seqnum=40 from=2
+asn=32437	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=32534	id=3   	App	generate a packet, seqnum=45 for=1
+asn=32539	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=32539	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=32539	id=1   	App	rx app packet seqnum=45 from=3
+asn=32539	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=32555	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 32
+asn=32555	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=32815	id=2   	App	generate a packet, seqnum=41 for=1
+asn=32828	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=32828	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=32828	id=1   	App	rx app packet seqnum=41 from=2
+asn=32828	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=33349	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 33
+asn=33349	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=33491	id=3   	App	generate a packet, seqnum=46 for=1
+asn=33491	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=33491	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=33491	id=1   	App	rx app packet seqnum=46 from=3
+asn=33491	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=33513	id=2   	App	generate a packet, seqnum=42 for=1
+asn=33525	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=33525	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=33525	id=1   	App	rx app packet seqnum=42 from=2
+asn=33525	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=34044	id=2   	App	generate a packet, seqnum=43 for=1
+asn=34052	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=34052	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=34052	id=1   	App	rx app packet seqnum=43 from=2
+asn=34052	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=34087	id=3   	App	generate a packet, seqnum=47 for=1
+asn=34103	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=34103	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=34103	id=1   	App	rx app packet seqnum=47 from=3
+asn=34103	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=34143	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 34
+asn=34143	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 0
+asn=34644	id=2   	App	generate a packet, seqnum=44 for=1
+asn=34647	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=34647	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 7
+asn=34647	id=1   	App	rx app packet seqnum=44 from=2
+asn=34647	id=2   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=34724	id=3   	App	generate a packet, seqnum=48 for=1
+asn=34732	id=-1  	TSCH	error: chloe: stats_slots_tx_packet= 0
+asn=34732	id=-1  	TSCH	error: chloe: stats_slots_Rx_packet= 6
+asn=34732	id=1   	App	rx app packet seqnum=48 from=3
+asn=34732	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=35211	id=-1  	Main	ending simulation at 599.995 seconds
+asn=35211	id=-1  	TSCH	error: chloe: ORGINAL stats_slots_rx_scanning: 0
+asn=35211	id=-1  	TSCH	error: chloe: ORGINAL stats_slots_rx_idle: 3030
+asn=35211	id=-1  	TSCH	error: chloe: xxxxxxxxxxxxxxxxxxxxxxxuty//
+asn=35211	id=-1  	TSCH	error: chloe: stats_slots_rx_scanning: 0
+asn=35211	id=-1  	TSCH	error: chloe: stats_slots_rx_idle: 3030
+asn=35211	id=-1  	TSCH	error: chloe: //xxxxxxxxxxxxxxxxxxxxxxxut
+asn=35211	id=-1  	TSCH	error: chloe: **** unit tx: 34
+asn=35211	id=-1  	TSCH	error: chloe: **** unit tx: 6
+asn=35211	id=-1  	TSCH	error: chloe: ===================duty_cycle sending tx: 243264
+asn=35211	id=-1  	TSCH	error: chloe: ===================duty_cycle sending rx: 1648148
+asn=35211	id=-1  	TSCH	error: chloe: ===================duty_cycle result tx: 243264
+asn=35211	id=-1  	TSCH	error: chloe: =================== duty_cycle result rx: 1648148
+asn=35211	id=-1  	TSCH	error: chloe: ===================//
+asn=35211	id=-1  	TSCH	error: chloe: summary -- stats_slots_x_packet= 34
+asn=35211	id=-1  	TSCH	error: chloe: summary -- stats_slots_x_packet= 6
+asn=35211	id=-1  	TSCH	error: chloe: ===================result: 40
+asn=35211	id=-1  	TSCH	error: chloe: received tx node_stats.slots_tx_packet sum result: 40
+asn=35211	id=-1  	TSCH	error: chloe: ORGINAL stats_slots_rx_scanning: 1
+asn=35211	id=-1  	TSCH	error: chloe: ORGINAL stats_slots_rx_idle: 3210
+asn=35211	id=-1  	TSCH	error: chloe: xxxxxxxxxxxxxxxxxxxxxxxuty//
+asn=35211	id=-1  	TSCH	error: chloe: stats_slots_rx_scanning: 1
+asn=35211	id=-1  	TSCH	error: chloe: stats_slots_rx_idle: 3210
+asn=35211	id=-1  	TSCH	error: chloe: //xxxxxxxxxxxxxxxxxxxxxxxut
+asn=35211	id=-1  	TSCH	error: chloe: **** unit Rx: 1
+asn=35211	id=-1  	TSCH	error: chloe: **** unit tx: 1
+asn=35211	id=-1  	TSCH	error: chloe: **** unit Rx: 6
+asn=35211	id=-1  	TSCH	error: chloe: ===================duty_cycle sending tx: 818576
+asn=35211	id=-1  	TSCH	error: chloe: ===================duty_cycle sending rx: 126148
+asn=35211	id=-1  	TSCH	error: chloe: ===================duty_cycle result tx: 818576
+asn=35211	id=-1  	TSCH	error: chloe: =================== duty_cycle result rx: 126148
+asn=35211	id=-1  	TSCH	error: chloe: ===================//
+asn=35211	id=-1  	TSCH	error: chloe: summary -- stats_slots_x_packet= 1
+asn=35211	id=-1  	TSCH	error: chloe: ===================result: 1
+asn=35211	id=-1  	TSCH	error: chloe: received tx node_stats.slots_tx_packet sum result: 1
+asn=35211	id=-1  	TSCH	error: chloe: ORGINAL stats_slots_rx_scanning: 1
+asn=35211	id=-1  	TSCH	error: chloe: ORGINAL stats_slots_rx_idle: 3211
+asn=35211	id=-1  	TSCH	error: chloe: xxxxxxxxxxxxxxxxxxxxxxxuty//
+asn=35211	id=-1  	TSCH	error: chloe: stats_slots_rx_scanning: 1
+asn=35211	id=-1  	TSCH	error: chloe: stats_slots_rx_idle: 3211
+asn=35211	id=-1  	TSCH	error: chloe: //xxxxxxxxxxxxxxxxxxxxxxxut
+asn=35211	id=-1  	TSCH	error: chloe: **** unit tx: 1
+asn=35211	id=-1  	TSCH	error: chloe: **** unit Rx: 6
+asn=35211	id=-1  	TSCH	error: chloe: ===================duty_cycle sending tx: 887248
+asn=35211	id=-1  	TSCH	error: chloe: ===================duty_cycle sending rx: 128820
+asn=35211	id=-1  	TSCH	error: chloe: ===================duty_cycle result tx: 887248
+asn=35211	id=-1  	TSCH	error: chloe: =================== duty_cycle result rx: 128820
+asn=35211	id=-1  	TSCH	error: chloe: ===================//
+asn=35211	id=-1  	TSCH	error: chloe: summary -- stats_slots_x_packet= 1
+asn=35211	id=-1  	TSCH	error: chloe: ===================result: 1
+asn=35211	id=-1  	TSCH	error: chloe: received tx node_stats.slots_tx_packet sum result: 1
+asn=35211	id=-1  	Main	packet stats: PDR=100.00% generated=92 received=92 lost=0 (tx_limit/queue/routing/scheduling/other=0/0/0/0/0)
+asn=35211	id=-1  	Main	link stats: PAR=92.45% tx=106 acked=98
+asn=35211	id=-1  	Main	simulation completed, results saved at /home/bae/Documents/tsch-sim/results/2021-05-16_21-33-21

@@ -1,0 +1,11 @@
+extraction:
+  javascript:
+    index:
+      include:
+        - source
+        - tests
+        - web/js
+  python:
+    index:
+      include:
+        - examples
