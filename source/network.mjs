@@ -216,7 +216,7 @@ export class Network {
             this.stats_slots_rx_packet += node_stats.slots_rx_packet;
             this.stats_slots_rx_packet_tx_ack += node_stats.slots_rx_packet_tx_ack;
             
-            log.log(log.ERROR, null, "TSCH", `chloe: received tx node_stats.slots_tx_packet sum result: ${node_stats.slots_tx_packet}`);
+            //log.log(log.ERROR, null, "TSCH", `chloe: received tx node_stats.slots_tx_packet sum result: ${node_stats.slots_tx_packet}`);
             
             this.stats_slots_tx_packet += node_stats.slots_tx_packet;
             this.stats_slots_tx_packet_rx_ack += node_stats.slots_tx_packet_rx_ack;
@@ -311,11 +311,6 @@ export class Network {
                     "mean": this.stats_app_latencies.avg()
                 }
             ],
-            "chloe": [
-            {
-            	"name": "Dummy"
-            }
-            ],
             "custom summary": [
             {
 
@@ -335,7 +330,9 @@ export class Network {
                 "slot cycle rx": cycle_rx,
                 "slot cycle scanning": cycle_scanning,
                 "slot cycle idle": cycle_idle,
-                "slot total rx (idle, scan, rx)": (cycle_rx+cycle_scanning+cycle_idle)
+                "slot total rx (idle, scan, rx)": (cycle_rx+cycle_scanning+cycle_idle),
+                "energy_uc": charge_uc,
+                "energy_except_scanning_uc": charge_joined_uc
                 //,"num collision": this.stats_mac_rx_collision
 
             }

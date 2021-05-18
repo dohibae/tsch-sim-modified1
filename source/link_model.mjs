@@ -45,6 +45,10 @@ import fs from 'fs';
 import path from 'path';
 import zlib from 'zlib';
 
+
+var dist_total = 0;
+var dist_times = 0;
+
 /* ------------------------------------- */
 
 /* Module logging */
@@ -115,6 +119,11 @@ export class LogisticLossLink extends Link {
 
     getRSSI() {
         let d = get_node_distance(this.from, this.to);
+        //log.log(log.ERROR, null, "distance", `chloe: get_node_distance: ${d}`);
+        dist_total += d;
+        dist_times += 1;
+        log.log(log.ERROR, null, "distance", `chloe: dist_avg: ${dist_total / dist_times}`);
+
         if (d <= 0) {
             /* do not allow the distance to be zero */
             d = 0.01;
@@ -549,12 +558,12 @@ export function create_link(from, to, connection)
 export function initialize()
 {
     const default_config = {
-        TX_POWER_DBM: 0, /* output power in dBm, for UDGM, LogLoss and PisterHack models */
+        TX_POWER_DBM: config.TX_POWER_DBM, //0, /* output power in dBm, for UDGM, LogLoss and PisterHack models */
 
-        LOGLOSS_TRANSMIT_RANGE_M: 200.0, /* in meters */
+        LOGLOSS_TRANSMIT_RANGE_M: config.LOGLOSS_TRANSMIT_RANGE_M, /* in meters */
 
         /* The maximal signal strength in dBm when the PRR is approximately 0% */
-        LOGLOSS_RX_SENSITIVITY_DBM: -100,
+        LOGLOSS_RX_SENSITIVITY_DBM: config.LOGLOSS_RX_SENSITIVITY_DBM, //change
         /*
          * This is the inflection point of the logistic loss function, i.e. where the second-order derivative becomes negative.
          * It is also the point where 50% of packets with this signal strength are received.

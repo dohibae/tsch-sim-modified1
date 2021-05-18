@@ -183,12 +183,12 @@ export function estimate_duty_cycle(stats)
     //rx_usec += idle_usec; //exclude
 
     for (let i = 0; i < (config.MAC_HEADER_SIZE + config.MAC_MAX_PACKET_SIZE + 1); ++i) {  //254  //126
-        if(stats.stats_slots_tx_packet[i] != 0) {
-            log.log(log.ERROR, null, "TSCH", `should see this: **** unit tx: ${stats.stats_slots_tx_packet[i]}`);
-        }
-        if(stats.stats_slots_rx_packet[i] != 0) {
-            log.log(log.ERROR, null, "TSCH", `should see this: **** unit Rx: ${stats.stats_slots_rx_packet[i]}`);
-        }
+        // if(stats.stats_slots_tx_packet[i] != 0) {
+        //     log.log(log.ERROR, null, "TSCH", `should see this: **** unit tx: ${stats.stats_slots_tx_packet[i]}`);
+        // }
+        // if(stats.stats_slots_rx_packet[i] != 0) {
+        //     log.log(log.ERROR, null, "TSCH", `should see this: **** unit Rx: ${stats.stats_slots_rx_packet[i]}`);
+        // }
         rx_usec += stats.stats_slots_rx_packet[i] * TSCH_BYTE_USEC * (i + PHY_OVERHEAD_BYTES);
         rx_usec += stats.stats_slots_rx_packet_tx_ack[i] * TSCH_BYTE_USEC * (i + PHY_OVERHEAD_BYTES) + TSCH_SLOT_RX_WAIT_USEC / 2;
         rx_usec += stats.stats_slots_tx_packet_rx_ack[i] * TSCH_BYTE_USEC * PHY_ACK_SIZE + TSCH_SLOT_ACK_WAIT_USEC / 2;
